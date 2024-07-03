@@ -1,0 +1,46 @@
+body{
+    background-image: url(../img/backgroundImage-login.jpg);
+}
+.card{
+    text-align: center;
+    background-color: white;
+    margin: 10%;
+    border-radius: 10px;
+    width:auto;
+    height: auto;
+    box-shadow:9px 7px 5px rgba(50, 50, 50, 0.77);
+    padding: 10px;
+}
+.botao{
+    background-color: bisque;
+    width:800px;
+    height: 140px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 10px;
+}
+#escuro{
+   background-color:#331a00;
+}
+#medio{
+    background-color:#784614a2;
+}
+
+#meio{
+    background-color:#8d5925a2; 
+}
+a{
+    text-decoration: none;
+    color:white;
+    font-size: 25px;
+    font-weight: bolder;
+}
+a:hover{
+    color:black;
+}
+.botao:hover{
+    background-color: white;
+}
+ul{
+    list-style-type:  none;
+}

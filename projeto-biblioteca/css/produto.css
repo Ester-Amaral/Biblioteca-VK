@@ -1,0 +1,91 @@
+
+
+.conteudo{
+   display: flex;
+   flex-direction: row;
+justify-content: center;
+align-items: center;
+}
+.produto{
+    margin:50px 0px 0px 20%;
+    float: left;
+    width:33%;
+    /*background-color: aqua;*/
+   
+    
+}
+.produto1{
+    margin:50px 20% 0px 60px;
+    float: right;
+    width:67%;
+    /*background-color:deeppink;*/
+    height: fit-content;
+}
+
+.img-produto{
+    margin:40px 0px 40px 60px;
+    float:center;
+    width: 337px;
+    height: 500px;
+}
+img{
+    width: 337px;
+    height: 500px;
+}
+.titulo{
+    margin:40px 0px 0px 0px;
+    float:center;
+}
+:hover.titulo h1, :hover.titulo h6{
+    color:#5b7392;
+}
+.sobre-livro{
+    margin:0px 0px 0px 0px;
+    float:center;
+    max-width: fit-content;
+    border-top: 1px solid rgba(182, 180, 180, 0.801);
+}
+
+.paragraph{
+    font-size: 20px;
+    color:#808080;
+    width: 200px;
+    height: 50px;
+}
+.esquerda div{
+    float:left;
+    
+    margin:auto;
+}
+.direita div{
+    float:right;
+    margin: auto;
+}
+.rodape{
+   float:bottom;
+   width:100%;
+   /*background-color:bisque;*/
+  
+}
+.botao{
+  margin-top: 20px;
+  width: 500px;
+  height: 50px;
+  color: aliceblue;
+  font-size: 30px;
+  background-color: #00cc00;
+  border: none;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 880px) {
+    .produto1, .produto{
+        float:none;
+        width: 100%;
+    }
+    
+}
+p{
+    font-size: 12px;
+}
