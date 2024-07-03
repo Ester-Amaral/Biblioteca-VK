@@ -1,4 +1,4 @@
-## ELA - plataforma digital
+## Biblioteca VK- biblioteca digital
 Status: ![Status](https://img.shields.io/badge/Finished-00b300)
 
 A Biblioteca digital VK, foi desenvolvida na disciplina de Análise e desenvolvimento de sistemas, no IFSP, durante o ano de 2022.
